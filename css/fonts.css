@@ -1,23 +1,19 @@
 @font-face {
     font-family:"Playfair-Black";
-    font-weight: 900;
     src: url(../fonts/PlayfairDisplay-Black.ttf) format("woff");
 }
 
 @font-face {
     font-family:"Raleway-Black";
-    font-weight: 800;
     src: url(../fonts/Raleway-Black.ttf) format("woff");
 }
 
 @font-face {
     font-family:"Raleway-ExtraBold";
-    font-weight: 700;
     src: url(../fonts/Raleway-ExtraBold.ttf) format("woff");
 }
 
 @font-face {
     font-family:"Raleway-Medium";
-    font-weight: 600;
     src: url(../fonts/Raleway-Medium.ttf) format("woff");
 }
