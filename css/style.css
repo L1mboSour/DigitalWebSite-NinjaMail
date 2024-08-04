@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1090px;
+    max-width: 1157px;
     width: 100%;
     margin: 0 auto;
 }
@@ -34,6 +34,7 @@ body {
 }
 
 .logo > span {
+    margin-left: 9px;
     font-size: 35px;
     font-family: "Raleway-Black";
 }
@@ -227,7 +228,6 @@ body {
 }
 
 .info-item-content {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     width: 1098px;
@@ -254,3 +254,220 @@ body {
 .info {
     padding-top: 98px;
 }
+
+.intro-members {
+    padding-top: 133px;
+}
+.container {
+}
+.intro-members {
+    padding-top: 50px;
+}
+
+.members-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.members-item {
+    position: relative;
+    text-align: center;
+}
+
+.members-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.member-title, .member-text {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Raleway-Black";
+}
+
+.member-title {
+    margin: 0 0 13px 27px;
+    text-align: left;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 34px;
+}
+
+.member-text {
+    margin: 0 0 0 27px;
+    text-align: left;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 19px;
+}
+
+.mail-content {
+    text-align: center;
+}
+
+.mail-item {
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+}
+
+.mail-title {
+    font-size: 44px;
+    margin: 0 auto;
+    line-height: 118%;
+    font-family: "Playfair-Black";
+    text-align: center;
+    max-width: 80%;
+}
+
+.mail-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.input-mail {
+    display: inline-block;
+    font-family: "Raleway-Medium";
+    width: 40%;
+    color: #000;
+    text-align: left;
+    margin-right: 20px;
+    padding: 20px 0 21px 27px;
+    font-size: 21px;
+    letter-spacing: 1.05px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mail-btn {
+    margin-top: 51px;
+    display: inline-block;
+    font-family: "Raleway-Black";
+    letter-spacing: 1.05px;
+    background-color: #4BA87D;
+    color: #fff;
+    padding: 19px 29px 21px 30px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.mail-content span {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20%;
+    text-align: left;
+    color: #4BA87D;
+    font-size: 21px;
+    font-family: "Raleway-Medium";
+}
+
+.brand-title {
+    font-family: "Playfair-Black";
+    width: 40%;
+    margin: 0;
+    text-align: center;
+    font-size: 44px;
+    line-height: 118%;
+
+}
+
+.brands {
+    padding-top: 75px;
+}
+
+.brands-item {
+    margin-top: 74px;
+    display: flex;
+    gap: 64px;
+}
+
+.brands-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-plan {
+    padding-top: 146px;
+}
+
+.plan-content {
+    height: 366px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4BA87D;
+}
+.plan-title {
+    font-size: 60px;
+    font-family: "Playfair-Black";
+    line-height: 138%;
+    margin: 0;
+    padding-bottom: 57px;
+    color: #fff;
+}
+.plan-btn {
+    color: #4BA87D;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 1.05px;
+    font-family: "Raleway-Black";
+    background-color: #fff;
+    padding: 19px 33px 21px 30px;
+}
+
+.footer-logo{
+    align-items: center;
+    position: absolute;
+    display: flex;
+    padding-top: 28px;
+    width: 190px;
+}
+
+.footer-logo > span {
+    display: flex;
+    margin-left: 8.89px;
+    font-size: 26px;
+    font-family: "Raleway-Black";
+}
+
+.footer-logo > svg:last-child {
+    width: 34px;
+}
+
+.footers {
+    width: 100%;
+}
+
+.footer-column-content {
+    margin-top: 51px;
+    padding-top: 28px;
+    font-size: 19px;
+    margin-right: 200px;
+    justify-content: right;
+    display: flex;
+    gap: 40px;
+    font-family: "Raleway-Bold";
+    line-height: 150%;
+}
+
+.footer-title {
+    padding-bottom: 60px;
+    gap: 50px;
+    padding-top: 97px;
+    display: flex;
+    font-size: 15px;
+    font-family: "Raleway-Bold";
+}
+
+.footer-title > span:nth-child(1) {
+    margin-right: 98px;
+}
+
