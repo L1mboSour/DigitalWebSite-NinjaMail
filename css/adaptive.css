@@ -1,0 +1,221 @@
+@media (max-width:768px) {
+
+    .logo {
+        display: flex;
+        align-items: end;
+    }
+
+    .logo > svg {
+        width: 40.5px;
+        height: 22.5px;
+    }
+
+    .logo > span {
+        font-size: 22px;
+    }
+
+    .header-content {
+        font-size: 11px;
+        gap: 16px;
+    }
+
+    .underlink-inner {
+        max-width: 74px;
+    }
+
+    .underlink-inner > svg {
+        width: 74px;
+        height: 3px;
+    }
+
+    .intro {
+        max-width: 711px;
+    }
+
+    .intro-title {
+        font-size: 38px;
+    }
+
+    .intro-text {
+        font-size: 12px;
+    }
+
+    .intro-btn {
+        font-size: 13px;
+        padding: 13px 35px 14px 31px;
+    }
+
+    .intro-btn-1 {
+        font-size: 13px;
+        padding: 11px 21px 12px 21px;
+        border: 3px solid #4BA87D;
+    }
+
+    .intro-content {
+        max-width: 345px;
+        padding: 0;
+    }
+
+    .intro-inner > img {
+        width: 61%;
+        height: auto;
+    }
+
+    .reach-more-block > img {
+        margin: 0 auto;
+        max-width: 616px;
+        height: auto;
+    }
+
+    .learn {
+        margin-top: 182px;
+    }
+
+    .reach-more-title {
+        position: absolute;
+        top: 30%;
+        left: 23%;
+        margin: 0;
+        font-size: 38px;
+    }
+
+    .learn-btn {
+        position: absolute;
+        left: 50%;
+        top: 57%;
+        transform: translateY(-50%);
+        transform: translateX(-55%);
+        padding: 12.44px 24px 14.56px 24px;
+        font-size: 13px;
+    }
+
+    .info-item-content {
+        display: flex;
+        justify-content: space-between;
+        max-width: 710px;
+        max-height: 348px;
+        display: flex;
+    }
+
+    .info-item > img{
+        max-width: 209px;
+        height: auto;
+    }
+
+    .background-item {
+        max-width: 209px;
+        max-height: 128px;
+    }
+
+    .info-text {
+        font-size: 12px;
+        line-height: 126%;
+        padding: 24px 25px 0 20px;
+    }
+
+    .info-btn {
+        text-align: left;
+        font-size: 12px;
+        padding-top: 25px;
+        margin: 25px 0 0 20px;
+    }
+
+    .info-item-text {
+        font-size: 12px;
+        line-height: 126%;
+        padding-top: 17px;
+    }
+
+    .info-title {
+        font-size: 28px;
+    }
+
+    .info-item:nth-child(2) {
+        padding-top: 57.84px;
+        padding-top: 90px;
+    }
+
+    .info-item:last-child {
+        max-width: 232px;
+    }
+
+    .members-item > img {
+        max-width: 223px;
+        width: 100%;
+        height: auto;
+    }
+
+    .mail-title {
+        font-size: 28px;
+    }
+
+    .input-mail {
+        padding: 12px 0 15px 16px;
+        font-size: 13px;
+    }
+
+    .mail-btn {
+        padding: 13px 21.5px 14px 21.5px;
+        font-size: 13px;
+    }
+
+    .mail-content span {
+        font-size: 13px;
+    }
+
+    .brand-title {
+        font-size: 28px;
+    }
+
+    .brands-item {
+        margin-top: 74px;
+        display: flex;
+        gap: 42px;
+    }
+
+    .brands-item > svg {
+        width: 94px;
+    }
+
+    .plan-content {
+        max-width: 768px;
+        height: 240px;
+    }
+
+    .plan-title {
+        font-size: 42px;
+    }
+
+    .plan-btn {
+        font-size: 13px;
+        padding: 13px 23px 14px 23px;
+    }
+
+    .footer-column-content {
+        font-size: 12px;
+        margin-right: 70px;
+    }
+
+    .footer-logo > span {
+        margin-left: 6px;
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 9px;
+    }
+
+    .footer-text:nth-child(1) {
+        margin-right: 68px;
+    }
+
+    .footer-logo > svg {
+        width: 32px;
+        height: 16px;
+    }
+
+    .divider > svg {
+        width: 711px;
+    }
+
+}
