@@ -339,7 +339,7 @@ body {
 }
 
 .mail-btn {
-    margin-top: 51px;
+    margin-top: 26px;
     display: inline-block;
     font-family: "Raleway-Black";
     letter-spacing: 1.05px;
@@ -350,10 +350,11 @@ body {
     text-transform: uppercase;
 }
 
-.mail-content span {
+.mail-container span {
+    position: absolute;
     display: flex;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 13%;
     text-align: left;
     color: #4BA87D;
     font-size: 21px;
@@ -371,7 +372,7 @@ body {
 }
 
 .brands {
-    padding-top: 75px;
+    padding-top: 120px;
 }
 
 .brands-item {
