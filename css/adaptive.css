@@ -159,8 +159,14 @@
         font-size: 13px;
     }
 
-    .mail-content span {
+    .mail-container span {
+        margin-top: 13px;
+        margin-left: 17%;
         font-size: 13px;
+    }
+
+    .brands {
+        padding-top: 78px;
     }
 
     .brand-title {
@@ -179,7 +185,6 @@
 
     .plan-content {
         max-width: 768px;
-        height: 240px;
     }
 
     .plan-title {
@@ -311,6 +316,14 @@
         font-size: 26px;
     }
 
+    .mail-container span {
+        letter-spacing: 0.6px;
+        font-size: 12px;
+        margin-top: 6px;
+        margin-left: 58px;
+        justify-content: center;
+    }
+
     .input-mail {
         margin-top: 24px;
         margin-right: 0px;
@@ -318,4 +331,80 @@
         font-size: 13px;
     }
 
-}
+    .mail-btn {
+        letter-spacing: 0.65px;
+        font-size: 13px;
+        padding: 13px 21px 14px 22px;
+    }
+
+    .brands {
+        padding-top: 56px;
+    }
+
+    .brand-title {
+        width: 90%;
+        font-size: 26px;
+    }
+
+    .brands-item {
+        margin-top: 40px;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro-plan {
+        padding-top: 66px;
+    }
+
+    .plan-title {
+        text-align: center;
+        padding-bottom: 49px;
+    }
+
+    .plan-btn {
+        font-size: 13px;
+        letter-spacing: 0.65px;
+    }
+
+    .plan-content {
+        max-width: 768px;
+    }
+
+    .footer-column-content .footer-item {
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .footer-column-content { 
+        gap: 0px;
+    }
+
+    .divider svg {
+        width: 286px;
+    }
+
+    .footer-title {
+        padding: 22px 0 22px 0;
+        gap: 0px;
+        display: grid;
+    } 
+
+    .footer-title .footer-text:first-child {
+        margin: 0;
+    }
+
+    .footer-title .footer-text:last-child {
+        display: none;
+    }
+
+    .footer-title .footer-text:nth-child(2){
+        margin: 34px 0 0 0;
+        
+    } 
+}   
