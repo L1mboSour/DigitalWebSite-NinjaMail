@@ -52,6 +52,7 @@ body {
 }
 
 .header-inner {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 33px;
@@ -234,8 +235,7 @@ body {
 .info-item-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1098px;
-    max-height: 533px;
+    width: 100%;
     display: flex;
 }
 
@@ -284,28 +284,28 @@ body {
 }
 
 .member-title, .member-text {
+    margin-left: 27px;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     color: #fff;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     font-family: "Raleway-Black";
 }
 
 .member-title {
-    margin: 0 0 13px 27px;
+    margin-bottom: 13px;
     text-align: left;
     bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     font-size: 34px;
 }
 
 .member-text {
-    margin-left:27px;
     text-align: left;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     font-size: 19px;
 }
 
@@ -456,6 +456,7 @@ body {
     margin-top: 51px;
     padding-top: 28px;
     font-size: 19px;
+    margin-bottom: 74px;
     margin-right: 200px;
     justify-content: right;
     display: flex;
