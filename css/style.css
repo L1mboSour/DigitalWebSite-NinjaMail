@@ -10,11 +10,20 @@ html {
 a {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 p{
     margin: 0;
 }
+
 body {
     margin: 0;
+    background: url(../images/floating_elements.png);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .container {
@@ -22,6 +31,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
+    
 }
 
 .logo {
@@ -38,6 +48,7 @@ body {
 
 .header {
     width: 100%;
+    background-color: #fff;
 }
 
 .header-inner {
@@ -79,6 +90,7 @@ body {
     height: auto;
     margin: 0 auto;
     padding-top: 103px;
+    
 }
 
 .intro-inner {
@@ -129,18 +141,17 @@ body {
 
 .intro-title {
     font-size: 59px;
-    margin: 0;
     font-family: "Playfair-Black";
 }
 
 .intro-text {
     padding-top: 23px;
-    margin: 0;
     font-size: 19px;
     font-family: "Raleway-Medium";
 }
 
 .learn {
+    
     margin-top: 279px;
     display: flex;
     flex-wrap: wrap;
@@ -150,8 +161,6 @@ body {
 .reach-more-block {
     display: flex;
     position: relative;
-    /* max-width: 944px;
-    height: auto; */
     justify-content: center;
 
 }
@@ -167,8 +176,6 @@ body {
     position: absolute;
     color: #fff;
     top: 20%;
-    /* left: 50%;
-    transform: translateX(-50%); */
     font-size: 60px;
     font-family: "Playfair-Black";
 }
@@ -191,7 +198,7 @@ body {
 .info-btn {
     color: #4BA87D;
     font-size: 16px;
-    margin: 0 0 0 30px;
+    margin-left: 30px;
     font-family: "Raleway-ExtraBold";
 }
 
@@ -214,7 +221,6 @@ body {
 
 .info-title {
     font-size: 44px;
-    margin: 0;
     line-height: 118%;
     font-family: "Playfair-Black";
 }
@@ -295,7 +301,7 @@ body {
 }
 
 .member-text {
-    margin: 0 0 0 27px;
+    margin-left:27px;
     text-align: left;
     bottom: 20px;
     left: 50%;
@@ -367,7 +373,6 @@ body {
 .brand-title {
     font-family: "Playfair-Black";
     width: 40%;
-    margin: 0;
     text-align: center;
     font-size: 44px;
     line-height: 118%;
@@ -407,7 +412,6 @@ body {
     font-size: 60px;
     font-family: "Playfair-Black";
     line-height: 138%;
-    margin: 0;
     padding-bottom: 57px;
     color: #fff;
 }

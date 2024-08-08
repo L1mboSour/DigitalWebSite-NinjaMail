@@ -195,9 +195,14 @@
         padding: 13px 23px 14px 23px;
     }
 
+    .footer-title {
+        padding-top: 39px;
+    }
+
     .footer-column-content {
         font-size: 12px;
         margin-right: 70px;
+        margin-bottom: 76px;
     }
 
     .footer-logo > span {
@@ -265,7 +270,6 @@
 
     .reach-more-title {
         top: 30%;
-        left: 23%;
         margin: 0;
         font-size: 22px;
     }
@@ -385,27 +389,27 @@
     }
     .footer-column-content-mob{
         display: flex;
-    }
-    .divider svg {
-        width: 286px;
+        margin-right: 0;
+        font-size: 12px;
+        justify-content: left;
+        margin-bottom: 26px;
     }
 
     .footer-title {
         padding: 22px 0 22px 0;
         gap: 0px;
         display: grid;
+        line-height: 119%;
     } 
 
     .footer-title .footer-text:first-child {
         margin: 0;
     }
 
-    .footer-title .footer-text:last-child {
-        display: none;
-    }
-
     .footer-title .footer-text:nth-child(2){
         margin: 34px 0 0 0;
         
-    } 
+    }
+    
+    
 }   
